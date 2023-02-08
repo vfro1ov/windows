@@ -1,0 +1,21 @@
+.cover {
+  height: 100vh;
+  position: relative;
+  width: 100vw;
+
+  &-info {
+    bottom: 4rem;
+    left: 4rem;
+    position: absolute;
+
+    &-time {
+      font-size: 4rem;
+    }
+
+    &-date {
+      // text-align: right;
+      font-size: 1.5rem;
+      margin-left: .325rem;
+    }
+  }
+}
