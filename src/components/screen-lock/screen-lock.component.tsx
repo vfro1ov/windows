@@ -1,7 +1,6 @@
 import { type FunctionComponent } from 'react';
 
 import { Cover } from './cover/cover.component';
-import { Login, type LoginProps } from './login/login.component';
 
 export const ScreenLock: FunctionComponent<ScreenLockProps> = (props) => {
   const { } = props;
@@ -9,7 +8,7 @@ export const ScreenLock: FunctionComponent<ScreenLockProps> = (props) => {
   return (
     <div>
       {/* заблоченый экран, Дата время , переход к вводу пароля */}
-      <Cover />
+      <Cover backgroundImageUrl="https://wp-s.ru/wallpapers/11/1/364103651406617/peschanyj-morskoj-plyazh-na-fone-golubogo-neba.jpg"/>
       {/* {ProfileProps.map((ProfileProps, index) =>
         <Login key={index} {...ProfileProps} />)} */}
     </div>
