@@ -1,6 +1,6 @@
 import { type FunctionComponent } from 'react';
 
-import { desktopLink$ } from '../subjects/desktop-link.subject';
+import { desktopLink$ } from './desktop-link.subject';
 
 export const DesktopLink: FunctionComponent<DesktopLinkProps> = (props) => {
   const { icon, name, command } = props;

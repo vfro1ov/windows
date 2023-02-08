@@ -1,8 +1,8 @@
 import { type FunctionComponent } from 'react';
 
-import { DesktopLink, type DesktopLinkProps } from './DesktopLink';
-import { desktopLink$ } from '../subjects/desktop-link.subject';
-import { useObservable } from '../utils/use-obserable.function';
+import { DesktopLink, type DesktopLinkProps } from './desktop-link/desktop-link.component';
+import { desktopLink$ } from './desktop-link/desktop-link.subject';
+import { useObservable } from '../../utils/use-obserable.function';
 
 export const Desktop: FunctionComponent<DesktopProps> = (props) => {
   const { linkProps } = props;
